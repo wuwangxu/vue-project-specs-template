@@ -3,6 +3,9 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
+  plugins: [
+    '@stylistic'
+  ],
   'extends': [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
@@ -10,5 +13,9 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  rules: {
+    '@stylistic/indent': ['error', 2],
+    '@stylistic/semi': ['error', 'never'],
   }
 }
