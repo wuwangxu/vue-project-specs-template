@@ -10,7 +10,8 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "commit": "cz"
+    "commit": "cz",
+    "prepare": "husky"
   },
   "dependencies": {
     "vue": "^3.4.21"
@@ -27,6 +28,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
+    "husky": "^9.0.11",
     "npm-run-all2": "^6.1.2",
     "typescript": "~5.4.0",
     "vite": "^5.2.8",
