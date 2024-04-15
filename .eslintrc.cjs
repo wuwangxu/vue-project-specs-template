@@ -17,5 +17,7 @@ module.exports = {
   rules: {
     '@stylistic/indent': ['error', 2],
     '@stylistic/semi': ['error', 'never'],
+    '@stylistic/no-multiple-empty-lines': 'error',
+
   }
 }
